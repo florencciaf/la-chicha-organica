@@ -8,6 +8,24 @@
 
 /* IMÁGENES */
 
+@mixin fotos ($height, $max-width) {
+    height: $height;
+    width: 100%;
+    max-width: $max-width;
+}
+
 .fotoLogo {
     height: 4rem;
+}
+
+.fotoLogoRedes {
+    height: 2.5rem;
+}
+
+.fotoLogoRedesGrande {
+    @include fotos(auto, 150px);
+}
+
+.fotoPalabras {
+    @include fotos(auto, 900px);
 }

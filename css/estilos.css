@@ -8,6 +8,19 @@
 .fotoLogo {
   height: 4rem; }
 
+.fotoLogoRedes {
+  height: 2.5rem; }
+
+.fotoLogoRedesGrande {
+  height: auto;
+  width: 100%;
+  max-width: 150px; }
+
+.fotoPalabras {
+  height: auto;
+  width: 100%;
+  max-width: 900px; }
+
 /* ---------------------------------------------- INDEX */
 /* ---------------------------------------------- PRODUCTOS */
 /* ---------------------------------------------- ¿CÓMO COMPRAR? */
