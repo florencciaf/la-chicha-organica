@@ -1,15 +1,21 @@
 @charset "UTF-8";
 /* ---------------------------------------------- ESTILOS GLOBALES */
+section {
+  margin: 4em 0; }
+
+h2 {
+  margin-bottom: 1em; }
+
 /* NAV */
 .navbar-light {
   box-shadow: 0 0 0.5em #E4DACB; }
 
 /* IMÁGENES */
 .fotoLogo {
-  height: 4rem; }
+  height: 70px; }
 
 .fotoLogoRedes {
-  height: 2.5rem; }
+  height: 40px; }
 
 .fotoLogoRedesGrande {
   height: auto;
@@ -19,9 +25,89 @@
 .fotoPalabras {
   height: auto;
   width: 100%;
-  max-width: 900px; }
+  max-width: 1000px; }
+
+.fotoRedonda {
+  height: auto;
+  width: 100%;
+  max-width: 600px; }
 
 /* ---------------------------------------------- INDEX */
+.marcas {
+  width: 100%; }
+
+.btn-primary {
+  background-color: #F47234;
+  border-color: #F47234;
+  margin-bottom: 2em; }
+
+.btn-primary:hover {
+  background-color: #e05e22;
+  border-color: #e05e22; }
+
+.grillaIndex {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 0.1fr 1fr 0.1fr 1fr 0.1fr;
+  row-gap: 20px;
+  align-items: start; }
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 768px) {
+  .texto {
+    width: 70%; }
+  .foto {
+    width: 30%; }
+  .grillaIndex {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 0.2fr;
+    grid-template-areas: "foto1    foto2    foto3" "boton1   boton2   boton3";
+    column-gap: 50px; }
+  .fotoIndex1 {
+    grid-area: foto1; }
+  .fotoIndex2 {
+    grid-area: foto2; }
+  .fotoIndex3 {
+    grid-area: foto3; }
+  .botonIndex1 {
+    grid-area: boton1; }
+  .botonIndex2 {
+    grid-area: boton2; }
+  .botonIndex3 {
+    grid-area: boton3; } }
+
 /* ---------------------------------------------- PRODUCTOS */
 /* ---------------------------------------------- ¿CÓMO COMPRAR? */
 /* ---------------------------------------------- CONTACTO */
+.grilla {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "foto   texto1" "foto   texto2" "foto   texto3";
+  column-gap: 20px;
+  row-gap: 40px;
+  align-items: center;
+  margin: 2em 0; }
+
+.fotoLogoRedesGrande {
+  grid-area: foto; }
+
+.textoFotos1 {
+  grid-area: texto1; }
+
+.textoFotos2 {
+  grid-area: texto2; }
+
+.textoFotos3 {
+  grid-area: texto3; }
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 768px) {
+  .grilla {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
+    grid-template-areas: "foto    foto    foto" "texto1  texto2  texto3";
+    justify-items: center; }
+  .textoFotos1, .textoFotos2, .textoFotos3 {
+    text-align: center; } }

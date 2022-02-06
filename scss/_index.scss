@@ -1,1 +1,78 @@
 /* ---------------------------------------------- INDEX */
+
+.marcas {
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: $componentes;
+    border-color: $componentes;
+    margin-bottom: 2em;
+}
+
+.btn-primary:hover {
+    background-color: $componentesOscurecido;
+    border-color: $componentesOscurecido;
+}
+
+.grillaIndex {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.1fr 1fr 0.1fr 1fr 0.1fr;
+    row-gap: 20px;
+    align-items: start;
+}
+
+/* MEDIA QUERIES */ 
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+ 
+    .texto {
+        width: 70%;
+    }
+    
+    .foto {
+        width: 30%;
+    }
+
+    .grillaIndex {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 0.2fr;
+        grid-template-areas:    "foto1    foto2    foto3"
+                                "boton1   boton2   boton3";
+        column-gap: 50px;
+    }
+
+    .fotoIndex1 {
+        grid-area: foto1;
+    }
+
+    .fotoIndex2 {
+        grid-area: foto2;
+    }
+
+    .fotoIndex3 {
+        grid-area: foto3;
+    }
+
+    .botonIndex1 {
+        grid-area: boton1;
+    }
+
+    .botonIndex2 {
+        grid-area: boton2;
+    }
+
+    .botonIndex3 {
+        grid-area: boton3;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    
+}

@@ -1,5 +1,13 @@
 /* ---------------------------------------------- ESTILOS GLOBALES */
 
+section {
+    margin: 4em 0;
+}
+
+h2 {
+    margin-bottom: 1em;
+}
+
 /* NAV */
 
 .navbar-light {
@@ -8,24 +16,28 @@
 
 /* IMÁGENES */
 
-@mixin fotos ($height, $max-width) {
-    height: $height;
+@mixin fotos ($max-width) {
+    height: auto;
     width: 100%;
     max-width: $max-width;
 }
 
 .fotoLogo {
-    height: 4rem;
+    height: 70px;
 }
 
 .fotoLogoRedes {
-    height: 2.5rem;
+    height: 40px;
 }
 
 .fotoLogoRedesGrande {
-    @include fotos(auto, 150px);
+    @include fotos(150px);
 }
 
 .fotoPalabras {
-    @include fotos(auto, 900px);
+    @include fotos(1000px);
+}
+
+.fotoRedonda {
+    @include fotos(600px);
 }

@@ -1,1 +1,57 @@
 /* ---------------------------------------------- CONTACTO */
+
+.grilla {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:    "foto   texto1"
+                            "foto   texto2"
+                            "foto   texto3";
+    column-gap: 20px;
+    row-gap: 40px;
+    align-items: center;
+    margin: 2em 0;
+}
+
+.fotoLogoRedesGrande {
+    grid-area: foto;
+}
+
+.textoFotos1 {
+    grid-area: texto1;   
+}
+
+.textoFotos2 {
+    grid-area: texto2;   
+}
+
+.textoFotos3 {
+    grid-area: texto3;   
+}
+
+/* MEDIA QUERIES */ 
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+ 
+    .grilla {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 2fr 1fr;
+        grid-template-areas:    "foto    foto    foto"
+                                "texto1  texto2  texto3";
+        justify-items: center;
+    }
+
+    .textoFotos1, .textoFotos2, .textoFotos3 {
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (min-width: 992px) {
+
+    
+}
