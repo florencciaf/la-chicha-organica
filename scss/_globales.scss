@@ -23,7 +23,7 @@ h2 {
 }
 
 .fotoLogo {
-    height: 70px;
+    height: 60px;
 }
 
 .fotoLogoRedes {
@@ -40,4 +40,20 @@ h2 {
 
 .fotoRedonda {
     @include fotos(600px);
+}
+
+/* MEDIA QUERIES */ 
+
+@media only screen and (max-width: 768px) {
+    
+}
+
+@media only screen and (min-width: 768px) {
+    .fotoLogo {
+        height: 70px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+ 
 }

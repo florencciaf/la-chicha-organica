@@ -8,11 +8,11 @@ h2 {
 
 /* NAV */
 .navbar-light {
-  box-shadow: 0 0 0.5em #E4DACB; }
+  box-shadow: 0 0 0.5em #e4dacb; }
 
 /* IMÁGENES */
 .fotoLogo {
-  height: 70px; }
+  height: 60px; }
 
 .fotoLogoRedes {
   height: 40px; }
@@ -32,13 +32,18 @@ h2 {
   width: 100%;
   max-width: 600px; }
 
+/* MEDIA QUERIES */
+@media only screen and (min-width: 768px) {
+  .fotoLogo {
+    height: 70px; } }
+
 /* ---------------------------------------------- INDEX */
 .marcas {
   width: 100%; }
 
 .btn-primary {
-  background-color: #F47234;
-  border-color: #F47234;
+  background-color: #f47234;
+  border-color: #f47234;
   margin-bottom: 2em; }
 
 .btn-primary:hover {
@@ -108,6 +113,7 @@ h2 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 1fr;
     grid-template-areas: "foto    foto    foto" "texto1  texto2  texto3";
-    justify-items: center; }
+    justify-items: center;
+    column-gap: 40px; }
   .textoFotos1, .textoFotos2, .textoFotos3 {
     text-align: center; } }

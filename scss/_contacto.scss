@@ -43,6 +43,7 @@
         grid-template-areas:    "foto    foto    foto"
                                 "texto1  texto2  texto3";
         justify-items: center;
+        column-gap: 40px;
     }
 
     .textoFotos1, .textoFotos2, .textoFotos3 {
