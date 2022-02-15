@@ -1,119 +1,183 @@
 @charset "UTF-8";
 /* ---------------------------------------------- ESTILOS GLOBALES */
 section {
-  margin: 4em 0; }
+  margin: 4em 0;
+}
 
 h2 {
-  margin-bottom: 1em; }
+  margin-bottom: 1em;
+}
 
 /* NAV */
 .navbar-light {
-  box-shadow: 0 0 0.5em #e4dacb; }
+  box-shadow: 0 0 0.5em #e4dacb;
+}
 
 /* IMÁGENES */
 .fotoLogo {
-  height: 60px; }
+  height: 60px;
+}
 
 .fotoLogoRedes {
-  height: 40px; }
+  height: 40px;
+}
 
 .fotoLogoRedesGrande {
   height: auto;
   width: 100%;
-  max-width: 150px; }
+  max-width: 150px;
+}
 
 .fotoPalabras {
   height: auto;
   width: 100%;
-  max-width: 1000px; }
+  max-width: 1000px;
+}
 
 .fotoRedonda {
   height: auto;
   width: 100%;
-  max-width: 600px; }
+  max-width: 600px;
+}
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 768px) {
   .fotoLogo {
-    height: 70px; } }
-
+    height: 70px;
+  }
+}
 /* ---------------------------------------------- INDEX */
 .marcas {
-  width: 100%; }
+  width: 100%;
+}
 
 .btn-primary {
   background-color: #f47234;
   border-color: #f47234;
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+}
 
 .btn-primary:hover {
   background-color: #e05e22;
-  border-color: #e05e22; }
+  border-color: #e05e22;
+}
 
 .grillaIndex {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 0.1fr 1fr 0.1fr 1fr 0.1fr;
   row-gap: 20px;
-  align-items: start; }
+  align-items: start;
+}
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 768px) {
   .texto {
-    width: 70%; }
+    width: 70%;
+  }
+
   .foto {
-    width: 30%; }
+    width: 30%;
+  }
+
   .grillaIndex {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 0.2fr;
-    grid-template-areas: "foto1    foto2    foto3" "boton1   boton2   boton3";
-    column-gap: 50px; }
-  .fotoIndex1 {
-    grid-area: foto1; }
-  .fotoIndex2 {
-    grid-area: foto2; }
-  .fotoIndex3 {
-    grid-area: foto3; }
-  .botonIndex1 {
-    grid-area: boton1; }
-  .botonIndex2 {
-    grid-area: boton2; }
-  .botonIndex3 {
-    grid-area: boton3; } }
+    grid-template-areas: "foto1    foto2    foto3" "boton1   boton2   boton3";
+    column-gap: 50px;
+  }
 
+  .fotoIndex1 {
+    grid-area: foto1;
+  }
+
+  .fotoIndex2 {
+    grid-area: foto2;
+  }
+
+  .fotoIndex3 {
+    grid-area: foto3;
+  }
+
+  .botonIndex1 {
+    grid-area: boton1;
+  }
+
+  .botonIndex2 {
+    grid-area: boton2;
+  }
+
+  .botonIndex3 {
+    grid-area: boton3;
+  }
+}
 /* ---------------------------------------------- PRODUCTOS */
+.lateral-bg {
+  position: absolute;
+  height: 100%;
+  background: rgba(178, 223, 214, 0.5);
+}
+
+.lateral {
+  list-style: none;
+}
+
+.btn {
+  background-color: rgba(127, 255, 212, 0);
+  border-color: rgba(178, 223, 214, 0.5);
+}
+
+.btn:hover {
+  border-color: #f57235;
+}
+
+.card {
+  background-color: #DDDACE;
+}
+
 /* ---------------------------------------------- ¿CÓMO COMPRAR? */
 /* ---------------------------------------------- CONTACTO */
 .grilla {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "foto   texto1" "foto   texto2" "foto   texto3";
+  grid-template-areas: "foto   texto1" "foto   texto2" "foto   texto3";
   column-gap: 20px;
   row-gap: 40px;
   align-items: center;
-  margin: 2em 0; }
+  margin: 2em 0;
+}
 
 .fotoLogoRedesGrande {
-  grid-area: foto; }
+  grid-area: foto;
+}
 
 .textoFotos1 {
-  grid-area: texto1; }
+  grid-area: texto1;
+}
 
 .textoFotos2 {
-  grid-area: texto2; }
+  grid-area: texto2;
+}
 
 .textoFotos3 {
-  grid-area: texto3; }
+  grid-area: texto3;
+}
 
 /* MEDIA QUERIES */
 @media only screen and (min-width: 768px) {
   .grilla {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 1fr;
-    grid-template-areas: "foto    foto    foto" "texto1  texto2  texto3";
+    grid-template-areas: "foto    foto    foto" "texto1  texto2  texto3";
     justify-items: center;
-    column-gap: 40px; }
+    column-gap: 40px;
+  }
+
   .textoFotos1, .textoFotos2, .textoFotos3 {
-    text-align: center; } }
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
