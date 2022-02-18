@@ -124,7 +124,7 @@ h2 {
 }
 
 .btn {
-  background-color: rgba(127, 255, 212, 0);
+  background-color: white;
   border-color: rgba(178, 223, 214, 0.5);
 }
 
@@ -132,8 +132,95 @@ h2 {
   border-color: #f57235;
 }
 
+/*CARDS*/
 .card {
-  background-color: #DDDACE;
+  width: 300px;
+  margin: 10px;
+  transition: all 300ms;
+}
+
+.card:hover {
+  width: 350px;
+}
+
+.card .cover {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  background-color: #e4dacb;
+}
+
+.card .cover img {
+  width: 250px;
+  display: block;
+  margin: auto;
+  position: relative;
+  top: 40px;
+  z-index: 1;
+  filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, 0.5));
+  transition: all 400ms;
+}
+
+.card:hover .cover img {
+  top: 0px;
+  filter: none;
+}
+
+.card .img__back {
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  bottom: -80px;
+  left: 0;
+  background-size: cover;
+  border-radius: 20px;
+  transition: all 300ms;
+}
+
+.card:nth-of-type(1) .img__back {
+  background-image: url(https://i.ibb.co/9r0G8rg/BKGRND.png);
+  background-color: #e4dacb;
+}
+
+.card:hover .img__back {
+  bottom: -40px;
+}
+
+.card .description {
+  background: white;
+  margin-top: -10px;
+  padding: 20px;
+  border-radius: 0px 0px 20px 20px;
+  transition: all 300ms;
+}
+
+.card:hover .description {
+  padding: 40px;
+}
+
+.card .description h2 {
+  margin-top: 10px;
+}
+
+.card .description p {
+  margin-top: 10px;
+}
+
+.card .description input {
+  padding: 10px 40px;
+  margin-top: 20px;
+  border: none;
+  background: #fc466b;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 300ms;
+}
+
+.card .description input:hover {
+  background: #fd0638;
 }
 
 /* ---------------------------------------------- ¿CÓMO COMPRAR? */
