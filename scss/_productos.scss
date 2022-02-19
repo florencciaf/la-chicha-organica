@@ -39,6 +39,22 @@ font-family: 'Poppins', sans-serif;
 .col-product{
     padding-left: 100px;
 }
+.grid-products{
+    padding-left: 200px;
+}
 
 /*CARDS*/
+.col{
+    padding: 10px;
+}
+.card{
+    border-radius: 20px;
+    box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.15);
+    background-color: rgb(228, 218, 203);
+}
 
+.img-bs{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
