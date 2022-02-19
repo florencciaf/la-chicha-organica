@@ -37,99 +37,327 @@
     <main>
         <section>
             <div class="product-main d-flex container"></div>
-            
             <div class="row">
                 <div class="lateral col">
                 <ul class="lateral lateral-bg">
                     <li>
-                        <div class="btn-group dropend">
-                            <a class="button-menu btn btn-sm btn-secondary dropdown-toggle btn-light" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Almacén</a>
+                        <div class="btn-width-menu btn-group dropend">
+                            <a class="button-menu btn btn-secondary rounded-pill btn-sm dropdown-toggle btn-light" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                Almacén</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <li><a class="button-menu btn btn-sm" href="#Alacena">Alacena</a></li>
-                                <li><a class="button-menu btn btn-sm" href="#">Infusiones</a></li>
-                                <li><a class="button-menu btn btn-sm" href="#">Aderezos</a></li>
+                                <li><a class="btn-width-menu2 button-menu btn btn-secondary rounded-pill btn-sm btn-light" href="productos.html#Alacena">Alacena</a></li>
+                                <li><a class="btn-width-menu2 button-menu btn btn-secondary rounded-pill btn-sm btn-light" href="productos.html#infusiones">Infusiones</a></li>
+                                <li><a class="btn-width-menu2 button-menu btn btn-secondary rounded-pill btn-sm btn-light" href="#">Aderezos</a></li>
                             </ul>
                         </div>
                     </li>
                     <li>
-                        <div class="btn-group dropend">
-                        <a class="button-menu btn btn-sm btn-secondary dropdown-toggle btn-light text-nowrap container-fluid" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        <div class="btn-width-menu btn-group dropend">
+                        <a class="button-menu btn btn-secondary rounded-pill btn-sm btn-secondary dropdown-toggle btn-light text-nowrap container-fluid" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                     Vinos</a>
-                        <ul class="dropdown-menu-vinos dropdown-menu" aria-labelledby="dropdownMenuLink">
-                            <li><a class="button-menu btn btn-sm" href="#">Tintos</a></li>
-                            <li><a class="button-menu btn btn-sm" href="#">Blancos</a></li>
-                            <li><a class="button-menu btn btn-sm" href="#">Rosados</a></li>
+                        <ul class="dropdown-menu-vinos dropdown-menu container" aria-labelledby="dropdownMenuLink">
+                            <li><a class="btn-width-menu2 button-menu btn btn-secondary rounded-pill btn btn-sm btn-light" href="#">Tintos</a></li>
+                            <li><a class="btn-width-menu2 button-menu btn btn-secondary rounded-pill btn-sm btn-light" href="#">Blancos</a></li>
+                            <li><a class="btn-width-menu2 button-menu btn btn-secondary rounded-pill btn btn-sm btn-light" href="#">Rosados</a></li>
                         </ul>
                     </div>
                     </li>
                     <li>
                             <div class="dropdown">
-                        <a class="button-menu btn btn-light btn-sm text-nowrap container" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="button-menu btn btn-secondary rounded-pill btn-light btn-sm text-nowrap container" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                     Frutas y Verduras</a>
                         </div>
                     </li>
                     <li><div class="dropdown">
-                        <a class="button-menu btn  btn-light btn-sm container d-flex justify-content-start" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a class="button-menu btn btn-secondary rounded-pill  btn-light btn-sm container d-flex justify-content-start" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
                     Cosmética</a>
                     </div></li>
                 </ul>
             </div>
         </div>
-    <div class="Alacena">
-        <div class="container-fluid d-flex justify-content-center">
-            <div class="row">
-              <div class="col">
-                  <div class="card" style="width: 12rem;">
-                    <div class="cover">
-                    <img src="https://i.ibb.co/syDKP1r/Quinoa-Roja.png" alt="">
-                    <div class="img__back"></div>
-                </div>
-                <div class="description">
-                    <h2>Quinoa Roja</h2>
-                    <p>Esta variedad destaca por su potencial proteico y por ser un producto rico en micronutrientes como el calcio, el magnesio y el fósforo. </p>
-                </div>
-            </div>
-        </div>
-              <div class="col">
-                  <div class="card"style="width: 12rem;">
-                <div class="cover">
-                    <img src="" alt="">
-                    <div class="img__back"></div>
-                </div>
-                <div class="description">
-                    <h2>Producto</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, laboriosam.</p>
-                </div>
-            </div>
-        </div>
-              <div class="col"><div class="card"style="width: 12rem;">
-                <div class="cover">
-                    <img src="" alt="">
-                    <div class="img__back"></div>
-                </div>
-                <div class="description">
-                    <h2>Producto</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, laboriosam.</p>
-                </div>
-            </div>
-        </div>
-              <div class="col"><div class="card"style="width: 12rem;">
-                <div class="cover">
-                    <img src="" alt="">
-                    <div class="img__back"></div>
-                </div>
-                <div class="description">
-                    <h2>Producto</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, laboriosam.</p>
-                </div>
-            </div>
-        </div>
-            </div>
 
+    <div name="Alacena">
+            <div class="grid-products container-fluid d-flex">
+                <div class="row">
 
+                <div class="col col-product">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/x5BV5dn/Quinoa-Roja.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Quinoa Roja</h5>
+                        <p class="card-text">La quinoa es una semilla fuente de proteína, calcio, hierro y magnesio, vitaminas C, E, B1 y B2. Presentación x 250 grs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/231jct0/Arroz-Integral.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Arroz Integral</h5>
+                        <p class="card-text">El arroz integral, contiene muchos elementos como fibra, B1, B2, B3, hierro, magnesio, calcio y potasio. Presentación x 500 grs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/vHPbrHf/Arroz-Yamani.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Arroz Yamaní</h5>
+                        <p class="card-text">Aporta fibra lo convierte en un elemento imprescindible para la salud, regula el funcionamiento intestinal. Presentación x 500 grs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--4 a 6-->
+
+                <div class="col col-product">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/M5XCSGg/DDLs-a.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Dulce de Leche Sin Azucar Agregada</h5>
+                        <p class="card-text">Dulce de leche sin azucar Bee Pure x 400 grs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/XLGYBwW/DDL-1KG.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Dulce de Leche x 1 KG</h5>
+                        <p class="card-text">Este Producto pertenece al Bolson Soberano.</p>
+                    <img class="img-bs" src="https://i.ibb.co/rfvns9j/BS-Logo.png" alt="bolson soberano logo">
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/7zZQ9jw/Harina-Organica-Dicomere.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Harina Organica Dicomere</h5>
+                        <p class="card-text">Harina integral Dicomere x 1KG.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--7 a 9-->
+
+                <div class="col col-product">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/JCbjQ3Z/Aceite-Biolive.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Aceite Biolive Organico</h5>
+                        <p class="card-text">Aceite de Oliva Extra virgen, orgánico x 500 cm3</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/L9XK0HS/Pasta-de-Aceitunas.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Pasta de Aceitunas</h5>
+                        <p class="card-text">Pasta de aceitunas verdes Terrasana x 235 grs</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/hZTdsnm/Dulces-Soberanos.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Dulces Soberanos x2</h5>
+                        <p class="card-text">Deliciosos dulces artesanales sabores variados presentacion x 450 grs.</p>
+                        <img class="img-bs" src="https://i.ibb.co/rfvns9j/BS-Logo.png" alt="bolson soberano logo">
+                    </div>
+                    </div>
+                </div>
+
+<!--10 a 12-->
+
+                <div class="col col-product">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/19MbvmY/Harina-Integral.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Harina Integral x 1KG</h5>
+                        <p class="card-text">La harina integral es el producto obtenido de la molienda del grano de cereal que conserva su cáscara y su germen</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/pv0fSrv/Nueces-Pecan.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Nueces Pecan</h5>
+                        <p class="card-text">Nueces Pecan Agroecologicas, peladas x 250 grs, 500 grs y 1 Kg</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/VLHYFg7/Frutos-Secos.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Frutos Secos</h5>
+                        <ul>
+                        <li>Mix Tradicional x Kg</li>
+                        <li>Mix Deportivo x Kg</li>
+                        <li>Mix Antioxidante x Kg</li>
+                        <li>Mix Premium x Kg</li>
+                        </ul>   
+                        </div>
+                    </div>
+                </div>
+
+<!--13 a 15-->
+
+                <div class="col col-product">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/PY9fvTn/Coco-Rallado.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Coco Rallado</h5>
+                        <p class="card-text">
+                            <ul>
+                                <li>High Fat</li>
+                                <li>Lo Fat</li>
+                            </ul>
+                            <p class="card-text">Ambas en presentacion x 1KG.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/w7WYB3V/Azucar-de-Ca-a.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Azucar de Caña</h5>
+                        <p class="card-text">Azucar de Caña organica, Presentacion x 1 KG</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/ypFz5zG/Mantquilla-de-mani.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Mantequilla de Maní</h5>
+                        <p class="card-text">Mantequilla de Maní, Natural. Presentaciones x 250 grs, 500grs y 1 Kg.</p>
+                        </div>
+                    </div>
+                </div>
+
+<!--16 a 18-->
+
+                <div class="col col-product">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/k5KWVNW/Huevos.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Huevos x Docena</h5>
+                        <p class="card-text">Docena de Huevos de Gallinas Felices. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/9hd0xmz/Veg-Burguers.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Pack Hamburguesas Veganas</h5>
+                        <ul>
+                        <li>Calabaza & Garbanzo</li>
+                        <li>Lentejas & Berenjenas</li>
+                        <li>Arroz Yamaní & Espinaca/Choclo</li>
+                        </ul>
+                        <p class="card-text">Cada Pack contiene 4 Hamburguesas</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://i.ibb.co/0JjGGyQ/Porotos.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                        <h5 class="card-title">Porotos </h5>
+                        <ul>
+                        <li>Negros</li>
+                        <li>Mung</li>
+                        <li>Aduki</li>
+                        <li>Blancos</li>
+                        <li>Colorados</li></ul>
+                        <p class="card-text">Todos en presentacion x 500 grs.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
     </div>
-        
+        <div name="infusiones">
+            <div class="grid-products container-fluid d-flex">
+                <div class="row">
+            <div class="col col-product">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.ibb.co/x5BV5dn/Quinoa-Roja.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Quinoa Roja</h5>
+                    <p class="card-text">La quinoa es una semilla fuente de proteína, calcio, hierro y magnesio, vitaminas C, E, B1 y B2. Presentación x 250 grs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.ibb.co/231jct0/Arroz-Integral.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Arroz Integral</h5>
+                    <p class="card-text">El arroz integral, contiene muchos elementos como fibra, B1, B2, B3, hierro, magnesio, calcio y potasio. Presentación x 500 grs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.ibb.co/vHPbrHf/Arroz-Yamani.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Arroz Yamaní</h5>
+                    <p class="card-text">Aporta fibra lo convierte en un elemento imprescindible para la salud, regula el funcionamiento intestinal. Presentación x 500 grs.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col col-product">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.ibb.co/x5BV5dn/Quinoa-Roja.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Quinoa Roja</h5>
+                    <p class="card-text">La quinoa es una semilla fuente de proteína, calcio, hierro y magnesio, vitaminas C, E, B1 y B2. Presentación x 250 grs</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.ibb.co/231jct0/Arroz-Integral.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                    <h5 class="card-title">Arroz Integral</h5>
+                    <p class="card-text">El arroz integral, contiene muchos elementos como fibra, B1, B2, B3, hierro, magnesio, calcio y potasio. Presentación x 500 grs</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
         </section>
     </main>
 
