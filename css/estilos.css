@@ -113,14 +113,11 @@ h2 {
   }
 }
 /* ---------------------------------------------- PRODUCTOS */
-@font-face {
-  font-family: "Poppins";
-  src: url("'https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap'");
-}
 .lateral-bg {
   position: absolute;
   height: 680%;
   background: rgba(178, 223, 214, 0.5);
+  border-radius: 0px 20px 0px 0px;
 }
 
 .lateral {
@@ -128,23 +125,35 @@ h2 {
   font-family: "Poppins", sans-serif;
 }
 
-.btn {
+.button-menu {
   background-color: white;
   border-color: rgba(178, 223, 214, 0.5);
+  padding: 1px;
 }
 
-.btn:hover {
-  border-color: #f57235;
+.button-menu:hover {
+  border-color: #f49034;
+}
+
+.btn-width-menu {
+  width: 100%;
+}
+
+.btn-width-menu2 {
+  width: 70%;
 }
 
 .dropdown-menu {
   border-color: rgba(240, 248, 255, 0);
-  background-color: rgba(245, 245, 220, 0);
-  padding-left: 50px;
+  background-color: rgba(255, 255, 255, 0);
 }
 
 .dropdown-menu-vinos {
-  padding-left: 70px;
+  background-color: rgba(240, 248, 255, 0);
+}
+
+.col-product {
+  padding-left: 100px;
 }
 
 /*CARDS*/
