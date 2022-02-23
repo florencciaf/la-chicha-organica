@@ -2,7 +2,7 @@
 .lateral-bg{ 
 position: absolute;
 width: 15%;
-height: 600%;
+height: 85%;
 position: fixed;
 top:100px;
 left: -30px;
@@ -10,7 +10,10 @@ background: rgba(178, 223, 214, 0.5);
 z-index: 10;
 border-radius: 0px 20px 0px 0px;
 }
-
+.footer{
+    background-color: white;
+    z-index: 1000;
+}
 .menu-prod{
     position: fixed;
     top: 0px;
