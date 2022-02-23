@@ -1,21 +1,37 @@
 /* ---------------------------------------------- PRODUCTOS */
-.lateral-bg{
-
-    position: absolute;
-    height:680%;    
-    background: rgba(178, 223, 214, 0.5);
-    border-radius: 0px 20px 0px 0px;
+.lateral-bg{ 
+position: absolute;
+width: 15%;
+height: 85%;
+position: fixed;
+top:100px;
+left: -30px;
+background: rgba(178, 223, 214, 0.5);
+z-index: 10;
+border-radius: 0px 20px 0px 0px;
 }
+.footer{
+    background-color: white;
+    z-index: 1000;
+}
+.menu-prod{
+    position: fixed;
+    top: 0px;
+    background-color: white;
+}
+
+
 
 .lateral{
 list-style: none;
 font-family: 'Poppins', sans-serif;
+
 }
 
 .button-menu{
     background-color: rgb(255, 255, 255);
     border-color: rgba(178, 223, 214, 0.5);
-    padding: 1px;
+
 }
 .button-menu:hover{
     border-color: $componentes;
@@ -51,6 +67,7 @@ font-family: 'Poppins', sans-serif;
     border-radius: 20px;
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.15);
     background-color: rgb(228, 218, 203);
+
 }
 
 .img-bs{
