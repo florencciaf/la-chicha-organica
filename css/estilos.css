@@ -115,9 +115,19 @@ h2 {
 /* ---------------------------------------------- PRODUCTOS */
 .lateral-bg {
   position: absolute;
-  height: 680%;
+  width: 15%;
+  height: 600%;
+  position: fixed;
+  top: 100px;
+  left: -30px;
   background: rgba(178, 223, 214, 0.5);
-  border-radius: 0px 20px 0px 0px;
+  z-index: 10;
+}
+
+.menu-prod {
+  position: fixed;
+  top: 0px;
+  background-color: white;
 }
 
 .lateral {
@@ -128,7 +138,6 @@ h2 {
 .button-menu {
   background-color: white;
   border-color: rgba(178, 223, 214, 0.5);
-  padding: 1px;
 }
 
 .button-menu:hover {
