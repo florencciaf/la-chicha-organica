@@ -35,11 +35,11 @@
     </header>
 
     <main>
-        <section>
+        <section class="productosfull">
             <div class="product-main d-flex container"></div>
             <div class="row">
                 <div class="lateral col">
-                <ul class="lateral lateral-bg">
+                <ul class="position-fixed lateral lateral-bg">
                     <li>
                         <div class="btn-width-menu btn-group dropend">
                             <a class="button-menu btn btn-secondary rounded-pill btn-sm dropdown-toggle btn-light" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
@@ -63,15 +63,27 @@
                     </div>
                     </li>
                     <li>
-                            <div class="dropdown">
-                        <a class="button-menu btn btn-secondary rounded-pill btn-light btn-sm text-nowrap container" href="#verduras" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Frutas y Verduras</a>
+                        <div class="btn-width-menu btn-group dropend">
+                            <a class="button-menu btn btn-secondary rounded-pill btn-sm btn-secondary dropdown-toggle btn-light text-nowrap container-fluid" href="#vinos" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Frutas Y Verduras</a>
+                            <ul class="dropdown-menu-vinos dropdown-menu container" aria-labelledby="dropdownMenuLink">
+                                <li><a class="btn-width-menu2 button-menu btn btn-secondary rounded-pill btn btn-sm btn-light" href="#bolsones">Bolsones</a></li>
+                                <li><a class="btn-width-menu2 button-menu btn btn-secondary rounded-pill btn-sm btn-light" href="#hongos">Hongos</a></li>
+                                
+                            </ul>
                         </div>
-                    </li>
-                    <li><div class="dropdown">
-                        <a class="button-menu btn btn-secondary rounded-pill  btn-light btn-sm container d-flex justify-content-start" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Cosmética</a>
-                    </div></li>
+                        <li>
+                            <div class="btn-width-menu btn-group dropend">
+                                <a class="button-menu btn btn-secondary rounded-pill btn-sm btn-secondary dropdown-toggle btn-light text-nowrap container-fluid" href="#vinos" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                            Cosmética</a>
+                                <ul class="dropdown-menu-vinos dropdown-menu container" aria-labelledby="dropdownMenuLink">
+                                    <li><a class="btn-width-menu2 button-menu btn btn-secondary rounded-pill btn btn-sm btn-light" href="#cosmetica">Bálsamos</a></li>
+                                    <li><a class="btn-width-menu2 button-menu btn btn-secondary rounded-pill btn-sm btn-light" href="#shampoo">Shampoo</a></li>
+                                    <li><a class="btn-width-menu2 button-menu btn btn-secondary rounded-pill btn-sm btn-light" href="#cremas">Cremas</a></li>
+                                    <li><a class="btn-width-menu2 button-menu btn btn-secondary rounded-pill btn-sm btn-light" href="#varios">Varios</a></li>
+                                </ul>
+                            </div>
+                </li>
                 </ul>
             </div>
         </div>
@@ -730,18 +742,18 @@
                 <div class="card" style="width: 18rem;">
                     <img src="https://i.ibb.co/VY26Cgn/Verdura.png" alt="Verdura" border="0">
                     <div class="card-body">
-                    <h5 class="card-title">Bolson Otoño/Invierno</h5>
+                    <h5 class="card-title">Bolson Otoño/Invierno. Verdura 6/7 Kg, Frutas 4Kg, Verdura Pesada 4Kg.</h5>
                     <p class="card-text">Acelga, Achicoria, Apio, Batata, Berro, Brocoli, Cardo, Coliflor, Cebolla de verdeo, Chaucha, Escarola, Espinaca, Hinojo, Nabo, Nabiza, Puerro, Rabano, Radicheta, Remolacha, Repollitos de Bruselas, Zanahoria, Zapallo, Calabaza, Banana, Ciruela, Durazno, Mandarina, Melón, Naranja, Pera, Pomelo.</p>
                     <img class="img-bs" src="https://i.ibb.co/rfvns9j/BS-Logo.png" alt="bolson soberano logo">
                 </div>
                 </div>
             </div>
 
-            <div class="col">
+            <div id="bolsones" class="col">
                 <div class="card" style="width: 18rem;">
                     <img src="https://i.ibb.co/VY26Cgn/Verdura.png" alt="Verdura" border="0">
                     <div class="card-body">
-                    <h5 class="card-title">Bolson Primavera</h5>
+                    <h5 class="card-title">Bolson Primavera. Verdura 6/7 Kg, Frutas 4Kg, Verdura Pesada 4Kg.</h5>
                     <p class="card-text">Remolacha, Zapallito, Radicheta, Perejil, Puerro, Habas, Lechuga, Nabiza, Nabo, Acelga, Apio, Alcauci, Esparrago, Frutilla, Manzana, Naranja, Banana.</p>
                     <img class="img-bs" src="https://i.ibb.co/rfvns9j/BS-Logo.png" alt="bolson soberano logo">
                 </div>
@@ -752,19 +764,64 @@
                 <div class="card" style="width: 18rem;">
                     <img src="https://i.ibb.co/VY26Cgn/Verdura.png" alt="Verdura" border="0">
                     <div class="card-body">
-                    <h5 class="card-title">Bolson Verano</h5>
+                    <h5 class="card-title">Bolson Verano. Verdura 6/7 Kg, Frutas 4Kg, Verdura Pesada 4Kg.</h5>
                     <p class="card-text">Zapallo, Calabaza, Rabanito, Tomate, Esparrago, Morrón, Cebolla, Chauchas, Pepino, Acelga, Berenjena, Choclo, Manzana, Uva, Pera, Frutilla, Naranja, Durazno.</p>
                     <img class="img-bs" src="https://i.ibb.co/rfvns9j/BS-Logo.png" alt="bolson soberano logo">
                 </div>
                 </div>
             </div>
 
+
+            <div id="hongos" class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.ibb.co/rGxgDKy/Hongos.png" alt="Hongos">
+                    <div class="card-body">
+                    <h5 class="card-title">Mix de Hongos x 1 Kg.</h5>
+                    <p class="card-text">Portobello, Champignones y Girgolas.</p>
+                    <img class="img-bs" src="https://i.ibb.co/rfvns9j/BS-Logo.png" alt="bolson soberano logo">
+                    </div>
+                </div>
+            </div>
+
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://i.ibb.co/3m3YMBn/caligiore-malbec.png" class="card-img-top" alt="...">
+                    <img src="https://i.ibb.co/f15XGn0/girgolas.png" alt="girgolas">
                     <div class="card-body">
-                    <h5 class="card-title">Bodega Caligiore Bonarda</h5>
-                    <p class="card-text">Bonarda natural organico sin sulfitos agregados.</p>
+                    <h5 class="card-title">Girgolas x 1/2 Kg.</h5>
+                    <p class="card-text"></p>
+                    <img class="img-bs" src="https://i.ibb.co/rfvns9j/BS-Logo.png" alt="bolson soberano logo">
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.ibb.co/Z2M12GJ/champigportobellos.png" alt="champigportobellos">
+                    <div class="card-body">
+                    <h5 class="card-title">Hongos Mix 1/2 Kg.</h5>
+                    <p class="card-text">Mix Champignones, Portobello.</p>
+                    <img class="img-bs" src="https://i.ibb.co/rfvns9j/BS-Logo.png" alt="bolson soberano logo">
+                    </div>
+                </div>
+            </div>
+
+            <div id="cosmetica" class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.ibb.co/pywd9cC/Balsamos-Labiales.png" alt="Balsamos-Labiales" border="0">
+                    <div class="card-body">
+                    <h5 class="card-title">Balsamos Labiales y para Barba Sentida Botanica.</h5>
+                    <p class="card-text">Cacao - Vainilla - Cereza - Natural - Rosas - Barba. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="shampoo" class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.ibb.co/pfxcC07/shampoosolid.png" alt="shampoosolid" border="0">
+                    <div class="card-body">
+                    <h5 class="card-title">Shampoo Solido Sentida Botanica x 100 grs.</h5>
+                    <p class="card-text">Seco - Equilibrado - Fortalecedor - <Graso>
+                    <Caspa></Caspa>.</p>
                     </div>
                 </div>
             </div>
@@ -773,85 +830,102 @@
                 <div class="card" style="width: 18rem;">
                     <img src="https://i.ibb.co/3m3YMBn/caligiore-malbec.png" class="card-img-top" alt="...">
                     <div class="card-body">
-                    <h5 class="card-title">Bodega Caligiore Bonarda</h5>
-                    <p class="card-text">Bonarda natural organico sin sulfitos agregados.</p>
+                    <h5 class="card-title">Acondicionador Solido Sentida Botanica x 100 grs.</h5>
+                    <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="cremas" class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.ibb.co/gPfDFw2/Cremas-x-45-grs.png" alt="Cremas-x-45-grs">
+                    <div class="card-body">
+                    <h5 class="card-title">Crema para manos x 45 grs Sentida Botanica.</h5>
+                    <p class="card-text">Orquidea y Lirio - Orquidea y Nardo</p>
                     </div>
                 </div>
             </div>
 
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://i.ibb.co/3m3YMBn/caligiore-malbec.png" class="card-img-top" alt="...">
+                    <img src="https://i.ibb.co/JQHCkn4/crema-corporal.png" alt="crema-corporal">
                     <div class="card-body">
-                    <h5 class="card-title">Bodega Caligiore Bonarda</h5>
-                    <p class="card-text">Bonarda natural organico sin sulfitos agregados.</p>
+                    <h5 class="card-title">Crema Corporal Nutricional x 150 mll.</h5>
+                    <p class="card-text">Loto y Magnolia.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="varios" class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.ibb.co/Hrk1MK5/Oleo-31.png" alt="Oleo-31">
+                    <div class="card-body">
+                    <h5 class="card-title">Oleo 31 x 15 ml</h5>
+                    <p class="card-text">Oleo a base de 31 Hierbas.</p>
                     </div>
                 </div>
             </div>
 
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://i.ibb.co/3m3YMBn/caligiore-malbec.png" class="card-img-top" alt="...">
+                    <img src="https://i.ibb.co/thV033R/agua-miscelar.png" alt="agua-miscelar" border="0">
                     <div class="card-body">
-                    <h5 class="card-title">Bodega Caligiore Bonarda</h5>
-                    <p class="card-text">Bonarda natural organico sin sulfitos agregados.</p>
+                    <h5 class="card-title">Agua Micelar x 150 ml. </h5>
+                    <p class="card-text"></p>
                     </div>
                 </div>
             </div>
 
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://i.ibb.co/3m3YMBn/caligiore-malbec.png" class="card-img-top" alt="...">
+                    <img src="https://i.ibb.co/866B5ck/aceite-masajes.png" alt="aceite-masajes" border="0">
                     <div class="card-body">
-                    <h5 class="card-title">Bodega Caligiore Bonarda</h5>
-                    <p class="card-text">Bonarda natural organico sin sulfitos agregados.</p>
+                    <h5 class="card-title">Aceite de árnica x 100 ml.</h5>
+                    <p class="card-text">Para Masajes.</p>
                     </div>
                 </div>
             </div>
 
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://i.ibb.co/3m3YMBn/caligiore-malbec.png" class="card-img-top" alt="...">
+                    <img src="https://i.ibb.co/dtmS22g/pasta-dental.png" alt="pasta-dental" border="0">
                     <div class="card-body">
-                    <h5 class="card-title">Bodega Caligiore Bonarda</h5>
-                    <p class="card-text">Bonarda natural organico sin sulfitos agregados.</p>
+                    <h5 class="card-title">Pasta de dientes x 60 grs.</h5>
+                    <p class="card-text">Citrica - Eucaliptus.</p>
                     </div>
                 </div>
             </div>
 
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://i.ibb.co/3m3YMBn/caligiore-malbec.png" class="card-img-top" alt="...">
+                    <img src="https://i.ibb.co/ftgRzzg/Jabon-SOlido.png" alt="Jabon-SOlido" border="0">
                     <div class="card-body">
-                    <h5 class="card-title">Bodega Caligiore Bonarda</h5>
-                    <p class="card-text">Bonarda natural organico sin sulfitos agregados.</p>
+                    <h5 class="card-title">Jabon Vegetal Solido.</h5>
+                    <p class="card-text">Coco - Melon</p>
                     </div>
                 </div>
             </div>
 
             <div class="col">
                 <div class="card" style="width: 18rem;">
-                    <img src="https://i.ibb.co/3m3YMBn/caligiore-malbec.png" class="card-img-top" alt="...">
+                    <img src="https://i.ibb.co/PFXR7fY/desodorante-corporal.png" alt="desodorante-corporal" border="0">
                     <div class="card-body">
-                    <h5 class="card-title">Bodega Caligiore Bonarda</h5>
-                    <p class="card-text">Bonarda natural organico sin sulfitos agregados.</p>
+                    <h5 class="card-title">Desodorante Corporal x 60 grs.</h5>
+                    <p class="card-text">Mix Floral</p>
                     </div>
                 </div>
             </div>
 
-
-
-
-
-
-
-
-
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://i.ibb.co/4N6kRBK/desodorante-corporal-lavanda.png" alt="desodorante-corporal-lavanda" border="0">
+                    <div class="card-body">
+                    <h5 class="card-title">Desodorante Corporal x 60 grs. </h5>
+                    <p class="card-text">Lavanda</p>
+                    </div>
+                </div>
+            </div>
         </div>
-
-
-
-
                 </div>
             </div>
         </div>
@@ -866,7 +940,7 @@
         </section>
     </main>
 
-    <footer class="navbar-light">   
+    <footer class="footer navbar-light">   
         <div class="container-fluid">  
             <div class="d-flex justify-content-center pt-4">
                 <ul class="navbar-nav d-flex flex-sm-row justify-content-center">
