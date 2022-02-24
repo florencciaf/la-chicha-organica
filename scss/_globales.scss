@@ -1,5 +1,9 @@
 /* ---------------------------------------------- ESTILOS GLOBALES */
 
+main {
+    margin-top: 8em;
+}
+
 section {
     margin: 4em 0;
 }
@@ -12,6 +16,7 @@ h2 {
 
 .navbar-light {
     box-shadow: $sombraGris;
+    background-color: #ffffff;
 }
 
 /* IMÁGENES */

@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /* ---------------------------------------------- ESTILOS GLOBALES */
+main {
+  margin-top: 8em; }
+
 section {
   margin: 4em 0; }
 
@@ -8,7 +11,8 @@ h2 {
 
 /* NAV */
 .navbar-light {
-  box-shadow: 0 0 0.5em #e4dacb; }
+  box-shadow: 0 0 0.5em #e4dacb;
+  background-color: #ffffff; }
 
 /* IMÁGENES */
 .fotoLogo {
@@ -71,8 +75,7 @@ h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 0.2fr;
-    grid-template-areas: "foto1    foto2    foto3"
- "boton1   boton2   boton3";
+    grid-template-areas: "foto1    foto2    foto3" "boton1   boton2   boton3";
     column-gap: 50px;
     width: 100%; }
   .fotoIndex1 {
@@ -96,21 +99,9 @@ h2 {
   position: fixed;
   top: 100px;
   left: -30px;
-  background: rgba(178, 223, 214, 0.5);
+  background: #d0eae5;
   z-index: 10;
-  border-radius: 0px 20px 0px 0px;
-}
-
-.footer {
-  background-color: white;
-  z-index: 1000;
-}
-
-.menu-prod {
-  position: fixed;
-  top: 0px;
-  background-color: white;
-}
+  border-radius: 0px 20px 0px 0px; }
 
 .lateral {
   list-style: none;
@@ -118,8 +109,7 @@ h2 {
 
 .button-menu {
   background-color: white;
-  border-color: rgba(178, 223, 214, 0.5);
-  padding: 1px; }
+  border-color: rgba(178, 223, 214, 0.5); }
 
 .button-menu:hover {
   border-color: #f47234; }
@@ -163,9 +153,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 2fr;
   grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "foto   texto1"
- "foto   texto2"
- "foto   texto3";
+  grid-template-areas: "foto   texto1" "foto   texto2" "foto   texto3";
   column-gap: 20px;
   row-gap: 40px;
   align-items: center;
@@ -188,8 +176,7 @@ h2 {
   .grilla {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 2fr 1fr;
-    grid-template-areas: "foto    foto    foto"
- "texto1  texto2  texto3";
+    grid-template-areas: "foto    foto    foto" "texto1  texto2  texto3";
     justify-items: center;
     column-gap: 40px; }
   .textoFotos1, .textoFotos2, .textoFotos3 {

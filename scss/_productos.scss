@@ -1,76 +1,68 @@
 /* ---------------------------------------------- PRODUCTOS */
-.lateral-bg{ 
-position: absolute;
-width: 15%;
-height: 85%;
-position: fixed;
-top:100px;
-left: -30px;
-background: rgba(178, 223, 214, 0.5);
-z-index: 10;
-border-radius: 0px 20px 0px 0px;
-}
-.footer{
-    background-color: white;
-    z-index: 1000;
-}
-.menu-prod{
+.lateral-bg { 
+    position: absolute;
+    width: 15%;
+    height: 85%;
     position: fixed;
-    top: 0px;
-    background-color: white;
+    top:100px;
+    left: -30px;
+    background: $menu;
+    z-index: 10;
+    border-radius: 0px 20px 0px 0px;
 }
 
-
-
-.lateral{
-list-style: none;
-font-family: 'Poppins', sans-serif;
-
+.lateral {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
 }
 
-.button-menu{
+.button-menu {
     background-color: rgb(255, 255, 255);
     border-color: rgba(178, 223, 214, 0.5);
-
 }
-.button-menu:hover{
+
+.button-menu:hover {
     border-color: $componentes;
 }
-.btn-width-menu{
+
+.btn-width-menu {
     width:100%;
-    
 }
+
 .btn-width-menu2{
     width:70%;
-    
 }
-.dropdown-menu{
+
+.dropdown-menu {
     border-color: rgba(240, 248, 255, 0);
     background-color: rgba(255, 255, 255, 0);
-    
 }
-.dropdown-menu-vinos{
+
+.dropdown-menu-vinos {
     background-color: rgba(240, 248, 255, 0);
 }
-.col-product{
+
+.col-product {
     padding-left: 100px;
 }
-.grid-products{
+
+.grid-products {
     padding-left: 200px;
 }
 
 /*CARDS*/
-.col{
+
+.col {
     padding: 10px;
 }
-.card{
+
+.card {
     border-radius: 20px;
     box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.15);
-    background-color: rgb(228, 218, 203);
-
+    background-color: $cards;
 }
 
-.img-bs{
+.img-bs {
     width: 20%;
     display: flex;
     justify-content: flex-end;
