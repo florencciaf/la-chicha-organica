@@ -9,6 +9,9 @@ section {
 h2 {
   margin-bottom: 1em; }
 
+footer {
+  width: 100%; }
+
 /* NAV */
 .navbar-light {
   box-shadow: 0 0 0.5em #e4dacb;
@@ -93,10 +96,9 @@ h2 {
 
 /* ---------------------------------------------- PRODUCTOS */
 .lateral-bg {
-  position: absolute;
-  width: 15%;
-  height: 85%;
   position: fixed;
+  width: auto;
+  height: 100%;
   top: 100px;
   left: -30px;
   background: #d0eae5;
@@ -104,8 +106,7 @@ h2 {
   border-radius: 0px 20px 0px 0px; }
 
 .lateral {
-  list-style: none;
-  font-family: 'Poppins', sans-serif; }
+  list-style: none; }
 
 .button-menu {
   background-color: white;
@@ -127,25 +128,39 @@ h2 {
 .dropdown-menu-vinos {
   background-color: rgba(240, 248, 255, 0); }
 
-.col-product {
-  padding-left: 100px; }
-
-.grid-products {
-  padding-left: 200px; }
-
 /*CARDS*/
-.col {
-  padding: 10px; }
+.contenedor-cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: min-content;
+  grid-template-areas: "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card" "card";
+  gap: 25px;
+  width: auto;
+  padding: 0 12px 0 180px;
+  justify-items: center; }
 
 .card {
   border-radius: 20px;
   box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.15);
-  background-color: #e4dacb; }
+  background-color: #e4dacb;
+  max-width: 20rem; }
 
 .img-bs {
   width: 20%;
   display: flex;
   justify-content: flex-end; }
+
+/* MEDIA QUERIES */
+@media only screen and (min-width: 768px) {
+  .contenedor-cards {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card" "card    card";
+    padding: 0 20px 0 180px; } }
+
+@media only screen and (min-width: 992px) {
+  .contenedor-cards {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card" "card    card    card"; } }
 
 /* ---------------------------------------------- ¿CÓMO COMPRAR? */
 /* ---------------------------------------------- CONTACTO */
